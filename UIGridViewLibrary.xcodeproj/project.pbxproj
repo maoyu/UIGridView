@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C005F7D16E98B5F0005D838 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C005F7C16E98B5F0005D838 /* Foundation.framework */; };
+		3C005F8216E98B5F0005D838 /* UIGridViewLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C005F8116E98B5F0005D838 /* UIGridViewLibrary.h */; };
+		3C005F8416E98B5F0005D838 /* UIGridViewLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C005F8316E98B5F0005D838 /* UIGridViewLibrary.m */; };
+		3C72708316EEBFF000938DDC /* UIGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C72707D16EEBFF000938DDC /* UIGridView.m */; };
+		3C72708416EEBFF000938DDC /* UIGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C72707F16EEBFF000938DDC /* UIGridViewCell.m */; };
+		3C72708516EEBFF000938DDC /* UIGridViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C72708216EEBFF000938DDC /* UIGridViewRow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C005F7716E98B5F0005D838 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				3C005F8216E98B5F0005D838 /* UIGridViewLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C005F7916E98B5F0005D838 /* libUIGridViewLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIGridViewLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C005F7C16E98B5F0005D838 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C005F8016E98B5F0005D838 /* UIGridViewLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGridViewLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		3C005F8116E98B5F0005D838 /* UIGridViewLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIGridViewLibrary.h; sourceTree = "<group>"; };
+		3C005F8316E98B5F0005D838 /* UIGridViewLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIGridViewLibrary.m; sourceTree = "<group>"; };
+		3C72707C16EEBFF000938DDC /* UIGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGridView.h; sourceTree = "<group>"; };
+		3C72707D16EEBFF000938DDC /* UIGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGridView.m; sourceTree = "<group>"; };
+		3C72707E16EEBFF000938DDC /* UIGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGridViewCell.h; sourceTree = "<group>"; };
+		3C72707F16EEBFF000938DDC /* UIGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGridViewCell.m; sourceTree = "<group>"; };
+		3C72708016EEBFF000938DDC /* UIGridViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGridViewDelegate.h; sourceTree = "<group>"; };
+		3C72708116EEBFF000938DDC /* UIGridViewRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGridViewRow.h; sourceTree = "<group>"; };
+		3C72708216EEBFF000938DDC /* UIGridViewRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGridViewRow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C005F7616E98B5F0005D838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C005F7D16E98B5F0005D838 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C005F7016E98B5F0005D838 = {
+			isa = PBXGroup;
+			children = (
+				3C005F7E16E98B5F0005D838 /* UIGridViewLibrary */,
+				3C005F7B16E98B5F0005D838 /* Frameworks */,
+				3C005F7A16E98B5F0005D838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C005F7A16E98B5F0005D838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C005F7916E98B5F0005D838 /* libUIGridViewLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C005F7B16E98B5F0005D838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C005F7C16E98B5F0005D838 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C005F7E16E98B5F0005D838 /* UIGridViewLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				3C72707B16EEBFF000938DDC /* UIGridView */,
+				3C005F8116E98B5F0005D838 /* UIGridViewLibrary.h */,
+				3C005F8316E98B5F0005D838 /* UIGridViewLibrary.m */,
+				3C005F7F16E98B5F0005D838 /* Supporting Files */,
+			);
+			path = UIGridViewLibrary;
+			sourceTree = "<group>";
+		};
+		3C005F7F16E98B5F0005D838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C005F8016E98B5F0005D838 /* UIGridViewLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C72707B16EEBFF000938DDC /* UIGridView */ = {
+			isa = PBXGroup;
+			children = (
+				3C72707C16EEBFF000938DDC /* UIGridView.h */,
+				3C72707D16EEBFF000938DDC /* UIGridView.m */,
+				3C72707E16EEBFF000938DDC /* UIGridViewCell.h */,
+				3C72707F16EEBFF000938DDC /* UIGridViewCell.m */,
+				3C72708016EEBFF000938DDC /* UIGridViewDelegate.h */,
+				3C72708116EEBFF000938DDC /* UIGridViewRow.h */,
+				3C72708216EEBFF000938DDC /* UIGridViewRow.m */,
+			);
+			name = UIGridView;
+			path = Classes/UIGridView;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C005F7816E98B5F0005D838 /* UIGridViewLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C005F8716E98B5F0005D838 /* Build configuration list for PBXNativeTarget "UIGridViewLibrary" */;
+			buildPhases = (
+				3C005F7516E98B5F0005D838 /* Sources */,
+				3C005F7616E98B5F0005D838 /* Frameworks */,
+				3C005F7716E98B5F0005D838 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIGridViewLibrary;
+			productName = UIGridViewLibrary;
+			productReference = 3C005F7916E98B5F0005D838 /* libUIGridViewLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C005F7116E98B5F0005D838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Liu&Mao";
+			};
+			buildConfigurationList = 3C005F7416E98B5F0005D838 /* Build configuration list for PBXProject "UIGridViewLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C005F7016E98B5F0005D838;
+			productRefGroup = 3C005F7A16E98B5F0005D838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C005F7816E98B5F0005D838 /* UIGridViewLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C005F7516E98B5F0005D838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C005F8416E98B5F0005D838 /* UIGridViewLibrary.m in Sources */,
+				3C72708316EEBFF000938DDC /* UIGridView.m in Sources */,
+				3C72708416EEBFF000938DDC /* UIGridViewCell.m in Sources */,
+				3C72708516EEBFF000938DDC /* UIGridViewRow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3C005F8516E98B5F0005D838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C005F8616E98B5F0005D838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C005F8816E98B5F0005D838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UIGridViewLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIGridViewLibrary/UIGridViewLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3C005F8916E98B5F0005D838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UIGridViewLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIGridViewLibrary/UIGridViewLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C005F7416E98B5F0005D838 /* Build configuration list for PBXProject "UIGridViewLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C005F8516E98B5F0005D838 /* Debug */,
+				3C005F8616E98B5F0005D838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C005F8716E98B5F0005D838 /* Build configuration list for PBXNativeTarget "UIGridViewLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C005F8816E98B5F0005D838 /* Debug */,
+				3C005F8916E98B5F0005D838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C005F7116E98B5F0005D838 /* Project object */;
+}
